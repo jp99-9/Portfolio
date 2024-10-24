@@ -1,5 +1,6 @@
-import './css/menu.css'
+import './css/menu.css';
 import './App.css';
+import './css/inicio.css';
 import { Header } from './componentes/Header';
 import { Inicio } from './componentes/Inicio';
 
@@ -9,7 +10,10 @@ function App() {
       <header className='barra'>
         <Header />
       </header>
-      <Inicio />
+      <section className='inicio'>
+        <Inicio />
+      </section>
+
     </div>
 
 
