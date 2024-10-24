@@ -6,12 +6,13 @@
 }
 /* estilos para que la barra este posicionada en el superior de l apagina de forma fija.*/
 .barra {
-    padding: 5px 20px;
+    padding: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid rgb(244, 241, 241);
+   
     background-color: transparent;
+    z-index: 1000;
 }
 
 /*estilos del ul donde centramos los elementos internos quitamos las decoraciones y arreglamos las fuentes.*/
@@ -26,6 +27,7 @@
     list-style-type: none;
     padding: 10px 20px;
     align-items: center;
+    
 
 }
 /*colocamnos en su sitio el icono de inicio y con el flexgrow ocupamos el espacio restante para centrar los elementos centrales*/
