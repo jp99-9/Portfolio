@@ -1,0 +1,59 @@
+/*estilos de menu*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilos para que la barra este posicionada en el superior de l apagina de forma fija.*/
+.barra {
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(244, 241, 241);
+    background-color: transparent;
+}
+
+/*estilos del ul donde centramos los elementos internos quitamos las decoraciones y arreglamos las fuentes.*/
+.menu {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 400;
+    justify-content: space-between;
+    font-style: normal;
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px 20px;
+    align-items: center;
+
+}
+/*colocamnos en su sitio el icono de inicio y con el flexgrow ocupamos el espacio restante para centrar los elementos centrales*/
+.homeIcon-items-menu {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.homeIcon-items-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/*colocamos los elementos que quiero que vayan en la derecha de la pantalla y con el grow empujamos lo que queremos que vaya en el centro*/
+.social {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.items-menu {
+    padding: 0.5rem 1rem;
+}
+
+.items-menu a {
+    text-decoration: none;
+    color: black;
+}
+.items-menu a:hover {
+    color: #007BFF;
+}

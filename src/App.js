@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import './css/menu.css'
 import './App.css';
 import { Header } from './componentes/Header';
 
 function App() {
   return (
-    <Header/>
+
+    <header className='barra'>
+      <Header />
+    </header>
+
+
+
   );
 }
 
