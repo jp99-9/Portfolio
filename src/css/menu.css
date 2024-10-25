@@ -18,8 +18,8 @@
 /*estilos del ul donde centramos los elementos internos quitamos las decoraciones y arreglamos las fuentes.*/
 .menu {
     font-family: sans-serif;
-    font-size: large;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: lighter;
     justify-content: space-between;
     font-style: normal;
     display: flex;
@@ -33,7 +33,7 @@
 /*colocamnos en su sitio el icono de inicio y con el flexgrow ocupamos el espacio restante para centrar los elementos centrales*/
 .homeIcon-items-menu {
     text-align: left;
-    flex-grow: 1;
+    
 }
 
 .homeIcon-items-menu a {
@@ -58,4 +58,17 @@
 }
 .items-menu a:hover {
     color: #9DB2BF;
+}
+
+#contact{
+    
+    border: 1px solid #585f63;
+   
+    background-color: #2d618a;
+    
+}
+
+#contact:hover{
+    background-color: #0e1010; 
+    color: #DDE6ED
 }

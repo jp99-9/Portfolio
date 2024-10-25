@@ -3,6 +3,7 @@ import './App.css';
 import './css/inicio.css';
 import { Header } from './componentes/Header';
 import { Inicio } from './componentes/Inicio';
+import React from 'react';
 
 function App() {
   return (

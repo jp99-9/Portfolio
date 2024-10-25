@@ -1,25 +1,79 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1f2a39;
+    background: linear-gradient(180deg, #1f2a39, #526D82);
 }
 
-section .inicio{
+section .inicio {
     position: relative;
     width: 100%;
+    padding: 25px;
 }
 
-.containerPerfil{
-    width: fit-content;
-    margin-top: 140px;
-    padding-left: 180px;   
-    }
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* Espacio entre la imagen y el texto */
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    color: #f4f4f4;
 
-.imgPerfil{
+}
+/*Posicion de la imagen y su contenedor*/
+
+.containerPerfil {
+    width: fit-content;
+    margin-top: 100px;
+    padding-left: 250px;
+}
+
+.imgPerfil {
     width: 100%;
-    height: 400px;
+    max-width: 400px;
+    /* Limita el tamaño máximo para pantallas grandes */
+    height: auto;
+
     border-radius: 25px;
 }
+
+/*Poscion y estilos de los textos de presentacion*/
+
+.aboutme {
+    max-width: 35%;
+    height: auto;
+    padding: 10px;
+}
+
+.aboutme p{
+    padding-top: 15px;
+}
+
+/*Estilo y posicion de boton conocerme mejor*/
+
+.botonKM{
+   width: fit-content;
+   margin: auto;
+   padding-top: 50px;
+    
+    
+}
+
+.botonKM button{
+    padding: 15px;
+    font-size: larger;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.botonKM button:hover{
+    background-color: #1f2a39;
+    color: #f4f4f4;
+    border: #1f2a39;
+}
+
 
 
