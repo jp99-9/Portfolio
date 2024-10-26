@@ -6,7 +6,7 @@ export function Inicio() {
 
             </div>
             <div className="aboutme">
-                <h1>Juan Pablo Aristizábal</h1>
+                <h1>Juan Pablo Aristizábal Uchima</h1>
                 <h2>Desarrollador Web</h2>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi illum facere sint modi, enim accusamus nemo dolorem ducimus error sunt non? Corrupti libero aut praesentium!
                 </p>
