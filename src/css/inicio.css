@@ -33,7 +33,7 @@ section .inicio {
 
 .imgPerfil {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     /* Limita el tamaño máximo para pantallas grandes */
     height: auto;
 
@@ -43,13 +43,19 @@ section .inicio {
 /*Poscion y estilos de los textos de presentacion*/
 
 .aboutme {
-    max-width: 35%;
+    max-width: 45%;
     height: auto;
     padding: 10px;
 }
 
+.aboutme h1{
+    font-size: xx-large;
+    font-weight: lighter;
+}
+
 .aboutme p{
     padding-top: 15px;
+    font-weight: lighter;
 }
 
 /*Estilo y posicion de boton conocerme mejor*/
@@ -67,13 +73,30 @@ section .inicio {
     font-size: larger;
     border-radius: 25px;
     box-shadow: 3px 3px 3px black;
+    border: none;
 }
 
 .botonKM button:hover{
     background-color: #1f2a39;
     color: #f4f4f4;
-    border: #1f2a39;
+    border: none;
 }
 
+.iconos{
+    width: 100%;
+    margin: auto;
+    padding-top: 45px;
+    
+}
+
+.redesSociales{
+    display: flex;
+    list-style-type: none;
+    justify-content:  space-evenly;
+}
+
+li .icon{
+    width: 30px;
+}
 
 

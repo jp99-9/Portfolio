@@ -15,6 +15,15 @@ export function Inicio() {
                     <button className="botonInicio" type="button">Conóceme mejor</button>
                 </div>
 
+                <div    className="iconos">
+                        <ul className="redesSociales">
+                            <li ><a href=""><img src="./iconos/facebook-brands-solid.svg" alt=""  className="icon"/></a></li>
+                            <li><a href=""><img src="./iconos/github-brands-solid.svg" alt=""  className="icon" /></a></li>
+                            <li><a href=""><img src="./iconos/instagram-brands-solid.svg" alt=""  className="icon" /></a></li>
+                            <li><a href=""><img src="./iconos/linkedin-in-brands-solid.svg" alt=""  className="icon"/></a></li>   
+                        </ul>
+                </div>
+
             </div>
 
 
