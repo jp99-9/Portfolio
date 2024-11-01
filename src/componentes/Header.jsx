@@ -1,4 +1,6 @@
-export function Header() {
+import React from "react";
+
+export function Header({verContacto}) {
     return (
 
         //estructura de la barra de menu.
@@ -12,7 +14,8 @@ export function Header() {
 
             <div className="social">
                 <li className="items-menu" ><a href="">NEWSLETTER</a></li>
-                <li className="items-menu" id="contact"><a href="" className="contactBoton">CONTACTO</a></li>     
+                {verContacto && <li className="items-menu" id="contact"><a href="" className="contactBoton">CONTACTO</a></li> }
+                    
             </div>
 
         </ul>

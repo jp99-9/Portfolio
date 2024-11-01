@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <header className='barra'>
-        <Header />
+        <Header verContacto={true}/>
       </header>
       <section className='inicio'>
         <Inicio />
