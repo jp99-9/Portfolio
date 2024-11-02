@@ -1,22 +1,30 @@
 import './css/menu.css';
 import './App.css';
 import './css/inicio.css';
-import { Header } from './componentes/Header';
+
 import { Inicio } from './componentes/Inicio';
+import { Contact } from './componentes/Contact';
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
+
     <div>
-      <header className='barra'>
-        <Header verContacto={true}/>
-      </header>
-      <section className='inicio'>
-        <Inicio />
-      </section>
+
+
+      <Routes>
+
+
+        <Route path="/" element={<Inicio />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+
+
+
 
     </div>
-
 
 
 
