@@ -5,20 +5,27 @@ export function Contact() {
 
         <>
             <Header verContacto={false} />
-            <h1>Contacto</h1>
 
-            <form action="">
-                <label for="nombre">Nombre</label><br />
-                <input type="text" id="nombre" name="nombre" /><br />
-                <label for="mail">Email</label><br />
-                <input type="email" id="mail" name="mail" /><br />
-                <p>Mensaje</p>
-                <textarea name="mensaje" rows="10" cols="30">
+
+            <div className="contacto">
+
+                <h1>Contacto</h1>
+
+                <form action="" className="formulario">
+                    <label for="nombre"></label><br />
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" /><br />
+                    <label for="mail"></label><br />
+                    <input type="email" id="mail" name="mail" placeholder="Mail"/><br />
                     
-                </textarea>
+                    <br/><textarea name="mensaje" id="text" placeholder="Mensaje" rows="10" cols="30">
 
-                <input type="submit" value="Enviar"></input>
-            </form>
+                    </textarea>
+
+                    <input id="enviar" type="submit" value="Enviar"></input>
+                </form>
+
+            </div>
+
         </>
 
     );

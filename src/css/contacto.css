@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.contacto{
+    max-width: 600px;
+    margin: auto;
+    justify-items: flex-start;
+    padding-top: 5%;
+}
+
+.contacto h1{
+    font-weight: bolder;
+    padding-left: 15px;
+    align-self: start;
+    font-size: xx-large;
+}
+
+.formulario{
+   padding: 15px;
+   padding-top: 0;
+   width: 65%;
+}
+
+#nombre, #mail{
+padding: 8px 70px 8px 2px ;
+font-size: larger;
+
+}
+
+#text{
+font-size: x-large;
+padding-top: 8px;
+padding-left: 2px;
+}
+
+#enviar{
+    padding: 6px 45px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+#enviar:hover{
+    color: white;
+    background-color: dimgrey;
+}
