@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export function Header({ verContacto }) {
+export function Header({ verContacto, verNewsLetter }) {
     return (
 
         //estructura de la barra de menu.
@@ -15,7 +15,7 @@ export function Header({ verContacto }) {
                 <li className="items-menu" ><a href="#">FORMACIÓN</a></li>
 
                 <div className="social">
-                    <li className="items-menu" ><a href="#">NEWSLETTER</a></li>
+                    {verNewsLetter &&<li className="items-menu" ><a href="/Newsletter">NEWSLETTER</a></li>}
                     {verContacto && <li className="items-menu" id="contact"><Link to="/Contact" className="contactBoton">CONTACTO</Link></li>}
 
                 </div>

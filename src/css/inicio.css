@@ -23,6 +23,7 @@ section .inicio {
     color: #f4f4f4;
 
 }
+
 /*Posicion de la imagen y su contenedor*/
 
 .containerPerfil {
@@ -48,55 +49,62 @@ section .inicio {
     padding: 10px;
 }
 
-.aboutme h1{
+.aboutme h1 {
     font-size: xx-large;
     font-weight: lighter;
 }
 
-.aboutme p{
+.aboutme p {
     padding-top: 15px;
     font-weight: lighter;
 }
 
 /*Estilo y posicion de boton conocerme mejor*/
 
-.botonKM{
-   width: fit-content;
-   margin: auto;
-   padding-top: 50px;
-    
-    
+.botonKM {
+    width: fit-content;
+    margin: auto;
+    padding-top: 50px;
+
+
 }
 
-.botonKM button{
+.botonInicio {
     padding: 15px;
     font-size: larger;
     border-radius: 25px;
     box-shadow: 3px 3px 3px black;
     border: none;
+    background-color: white;
+    color: #1f2a39;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.botonKM button:hover{
+
+
+.botonKM .botonInicio:hover {
     background-color: #1f2a39;
     color: #f4f4f4;
     border: none;
+    box-shadow: 3px 3px 3px white;
 }
 
-.iconos{
+.iconos {
     width: 100%;
     margin: auto;
     padding-top: 45px;
-    
+
 }
 
-.redesSociales{
+.redesSociales {
     display: flex;
     list-style-type: none;
-    justify-content:  space-evenly;
+    justify-content: space-evenly;
 }
 
-li .icon{
-    width: 30px;
+li .icon {
+    width: 50px;
+    margin-top: 50px;
 }
-
 

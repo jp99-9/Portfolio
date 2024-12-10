@@ -1,49 +1,54 @@
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
 }
 
-.contacto{
+.contacto {
     max-width: 600px;
-    margin: auto;
-    justify-items: flex-start;
-    padding-top: 5%;
+    margin: 140px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contacto h1{
-    font-weight: bolder;
-    padding-left: 15px;
-    align-self: start;
-    font-size: xx-large;
+.contacto h1 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.formulario{
-   padding: 15px;
-   padding-top: 0;
-   width: 65%;
+.formulario {
+    display: flex;
+    flex-direction: column;
 }
 
-#nombre, #mail{
-padding: 8px 70px 8px 2px ;
-font-size: larger;
-
+.formulario label {
+    margin-bottom: 1px;
+    font-weight: bold;
 }
 
-#text{
-font-size: x-large;
-padding-top: 8px;
-padding-left: 2px;
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-#enviar{
-    padding: 6px 45px;
-    font-size: larger;
-    margin-top: 10px;
-}
-
-#enviar:hover{
+.formulario input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
     color: white;
-    background-color: dimgrey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #0056b3;
 }
