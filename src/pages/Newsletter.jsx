@@ -10,7 +10,7 @@ export function Newsletter() {
 
 
 
-    const apikey = process.env.REACT_APP_API_KEY;
+    const apikey = '5de2a90626ea42fa907b8d3c31615431';
 
     useEffect(() => {
 
@@ -25,7 +25,7 @@ export function Newsletter() {
         catch (error) {
             console.log(error);
         }
-    }, [cards , apikey]);
+    }, [cards]);
 
 
     const handleClick = () => {
