@@ -25,7 +25,7 @@ export function Newsletter() {
         catch (error) {
             console.log(error);
         }
-    }, [cards]);
+    }, [cards , apikey]);
 
 
     const handleClick = () => {
