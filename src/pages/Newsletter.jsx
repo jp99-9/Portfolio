@@ -10,7 +10,7 @@ export function Newsletter() {
 
 
 
-    const apikey = process.env.apikey;
+    const apikey = process.env.REACT_APP_API_KEY;
 
     useEffect(() => {
 
