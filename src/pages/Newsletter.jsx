@@ -6,7 +6,7 @@ import { Header } from '../componentes/Header';
 export function Newsletter() {
 
     const [newsLetter, setNewsLetter] = useState([]);
-    const [cards, setCard] = useState(8);
+    const [cards, setCard] = useState(8); 
 
 
 
