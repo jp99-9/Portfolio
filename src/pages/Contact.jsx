@@ -23,7 +23,7 @@ export function Contact() {
 
     return (
         <>
-            <Header verContacto={false} verNewsLetter={true}/>
+            <Header verContacto={false} verNewsLetter={true} />
             <div className="contacto">
                 <h1>Contacto</h1>
                 <form onSubmit={handleSubmit} className="formulario">

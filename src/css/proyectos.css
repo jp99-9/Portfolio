@@ -1,0 +1,60 @@
+.proyectos {
+    
+    width: 500px;
+    justify-content: center;
+    margin: 60px auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    color: #f9f9f9;
+}
+
+.proyecto {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.proyecto h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.proyecto .descripcion {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 1em;
+    color: #333;
+}
+
+.proyecto p.tecnologia {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.proyecto a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}

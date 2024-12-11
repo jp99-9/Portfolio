@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Gestor de Biblioteca",
+        "descripcion": "Aplicación en Java para gestionar préstamos, devoluciones y catálogo de libros en una biblioteca.",
+        "imagen": "/imgs/software-gestion-proyectos-gratis-Screenshot-3.png",
+        "tecnologia": "Java"
+    },
+    {
+        "id": 2,
+        "nombre": "Tienda Virtual",
+        "descripcion": "Proyecto en React para construir una tienda online con carrito de compras y pagos integrados.",
+        "imagen": "/imgs/netfli.jpg",
+        "tecnologia": "React"
+    },
+    {
+        "id": 3,
+        "nombre": "Calculadora Científica",
+        "descripcion": "Aplicación interactiva en JavaScript que realiza operaciones matemáticas avanzadas como raíces, potencias y trigonometría.",
+        "imagen": "/imgs/App-Calculadora-1000x625.jpg",
+        "tecnologia": "JavaScript"
+    },
+    {
+        "id": 4,
+        "nombre": "Gestor de Tareas",
+        "descripcion": "Aplicación en React que permite a los usuarios crear, editar y organizar tareas en listas personalizadas.",
+        "imagen": "/imgs/calendario.jpg",
+        "tecnologia": "React"
+    }
+]

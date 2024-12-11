@@ -11,8 +11,8 @@ export function Header({ verContacto, verNewsLetter }) {
                 <li className="homeIcon-items-menu" ><Link to="/"><img src="./iconos/home.svg" alt="" className="iconoHome" /></Link></li>
 
 
-                <li className="items-menu" ><a href="#">PROYECTOS</a></li>
-                <li className="items-menu" ><a href="#">FORMACIÓN</a></li>
+                <li className="items-menu" ><Link to="/Project">PROYECTOS</Link></li>
+                
 
                 <div className="social">
                     {verNewsLetter &&<li className="items-menu" ><a href="/Newsletter">NEWSLETTER</a></li>}
